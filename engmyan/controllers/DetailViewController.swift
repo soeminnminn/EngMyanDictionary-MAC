@@ -73,6 +73,11 @@ class DetailViewController: NSViewController {
             html += "<p class=\"synonym\">\(synonym)</p>"
         }
         
+        if let picture = item.pictureBase64, let word = item.word {
+            html += "<hr />"
+            html += "<img src='\(picture)' alt='\(word)' />"
+        }
+        
         html += "</html>"
         return html
     }

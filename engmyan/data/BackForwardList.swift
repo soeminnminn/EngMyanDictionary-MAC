@@ -23,11 +23,13 @@ class BackForwardList: NSObject {
         return Static.instance
     }
     
-    private var currentIndex: Int = 0
+    private var currentIndex: Int = -1
     private var items: [HistoryItem]!
     
     override init() {
         super.init()
+        
+        self.currentIndex = -1
         self.items = [HistoryItem]()
     }
     

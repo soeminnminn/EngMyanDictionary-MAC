@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		352330A921634AF10084DABE /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352330A821634AF10084DABE /* SQLite.framework */; };
+		3506F5FF21660097003D24F1 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352330A821634AF10084DABE /* SQLite.framework */; };
+		3506F60021660097003D24F1 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 352330A821634AF10084DABE /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3506F60321660786003D24F1 /* BindingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506F60221660786003D24F1 /* BindingExtension.swift */; };
+		3506F61521660F4F003D24F1 /* ZipZap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3506F61321660F47003D24F1 /* ZipZap.framework */; };
+		3506F61621660F4F003D24F1 /* ZipZap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3506F61321660F47003D24F1 /* ZipZap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		351002902165F9600027AE7D /* pics.zip in Resources */ = {isa = PBXBuildFile; fileRef = 3510028F2165F95F0027AE7D /* pics.zip */; };
 		352330AB216356460084DABE /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352330AA216356460084DABE /* DBManager.swift */; };
 		35280BEB216207CA00E793BD /* EMDictionary.db in Resources */ = {isa = PBXBuildFile; fileRef = 35280BE9216207CA00E793BD /* EMDictionary.db */; };
 		359B1E4E21636B50001DB70B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B1E4D21636B50001DB70B /* ListViewController.swift */; };
@@ -19,7 +24,6 @@
 		35E0A58B2164D01700BD0AAE /* ManageBookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0A5892164D01700BD0AAE /* ManageBookmarksViewController.swift */; };
 		35E0A58E2164D21500BD0AAE /* RecentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0A58D2164D21500BD0AAE /* RecentsViewController.swift */; };
 		35E0A5902164D22B00BD0AAE /* RecentsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0A58F2164D22B00BD0AAE /* RecentsWindowController.swift */; };
-		35E0A5922164DA3000BD0AAE /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 352330A821634AF10084DABE /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35E195DE20F47CDA008CE1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E195DD20F47CDA008CE1B7 /* AppDelegate.swift */; };
 		35E195E020F47CDA008CE1B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E195DF20F47CDA008CE1B7 /* MainViewController.swift */; };
 		35E195E220F47CDB008CE1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E195E120F47CDB008CE1B7 /* Assets.xcassets */; };
@@ -39,13 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		35E0A5932164DA3100BD0AAE /* Embed Frameworks */ = {
+		3506F60121660097003D24F1 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				35E0A5922164DA3000BD0AAE /* SQLite.framework in Embed Frameworks */,
+				3506F61621660F4F003D24F1 /* ZipZap.framework in Embed Frameworks */,
+				3506F60021660097003D24F1 /* SQLite.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3506F60221660786003D24F1 /* BindingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtension.swift; sourceTree = "<group>"; };
+		3506F61321660F47003D24F1 /* ZipZap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZipZap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3510028F2165F95F0027AE7D /* pics.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = pics.zip; sourceTree = "<group>"; };
 		352330A821634AF10084DABE /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		352330AA216356460084DABE /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		35280BE9216207CA00E793BD /* EMDictionary.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = EMDictionary.db; sourceTree = "<group>"; };
@@ -66,7 +74,7 @@
 		35E0A5892164D01700BD0AAE /* ManageBookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageBookmarksViewController.swift; sourceTree = "<group>"; };
 		35E0A58D2164D21500BD0AAE /* RecentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsViewController.swift; sourceTree = "<group>"; };
 		35E0A58F2164D22B00BD0AAE /* RecentsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsWindowController.swift; sourceTree = "<group>"; };
-		35E195DA20F47CDA008CE1B7 /* engmyan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = engmyan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E195DA20F47CDA008CE1B7 /* Eng-Myan Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eng-Myan Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E195DD20F47CDA008CE1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E195DF20F47CDA008CE1B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		35E195E120F47CDB008CE1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				352330A921634AF10084DABE /* SQLite.framework in Frameworks */,
+				3506F61521660F4F003D24F1 /* ZipZap.framework in Frameworks */,
+				3506F5FF21660097003D24F1 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +110,7 @@
 		352330A721634AF10084DABE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3506F61321660F47003D24F1 /* ZipZap.framework */,
 				352330A821634AF10084DABE /* SQLite.framework */,
 			);
 			name = Frameworks;
@@ -144,7 +154,7 @@
 		35E195DB20F47CDA008CE1B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35E195DA20F47CDA008CE1B7 /* engmyan.app */,
+				35E195DA20F47CDA008CE1B7 /* Eng-Myan Dictionary.app */,
 				35E195EC20F47CDB008CE1B7 /* engmyanTests.xctest */,
 			);
 			name = Products;
@@ -155,6 +165,7 @@
 			children = (
 				35E195DD20F47CDA008CE1B7 /* AppDelegate.swift */,
 				35E195E120F47CDB008CE1B7 /* Assets.xcassets */,
+				3506F60221660786003D24F1 /* BindingExtension.swift */,
 				352330AD216361EA0084DABE /* controllers */,
 				352330AC216361DE0084DABE /* data */,
 				35280BE9216207CA00E793BD /* EMDictionary.db */,
@@ -162,6 +173,7 @@
 				35E195E620F47CDB008CE1B7 /* Info.plist */,
 				35E195E320F47CDB008CE1B7 /* Main.storyboard */,
 				35E0A5852164B6E800BD0AAE /* mmrtext.ttf */,
+				3510028F2165F95F0027AE7D /* pics.zip */,
 			);
 			path = engmyan;
 			sourceTree = "<group>";
@@ -185,7 +197,7 @@
 				35E195D620F47CDA008CE1B7 /* Sources */,
 				35E195D720F47CDA008CE1B7 /* Frameworks */,
 				35E195D820F47CDA008CE1B7 /* Resources */,
-				35E0A5932164DA3100BD0AAE /* Embed Frameworks */,
+				3506F60121660097003D24F1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,7 +205,7 @@
 			);
 			name = engmyan;
 			productName = engmyan;
-			productReference = 35E195DA20F47CDA008CE1B7 /* engmyan.app */;
+			productReference = 35E195DA20F47CDA008CE1B7 /* Eng-Myan Dictionary.app */;
 			productType = "com.apple.product-type.application";
 		};
 		35E195EB20F47CDB008CE1B7 /* engmyanTests */ = {
@@ -263,6 +275,7 @@
 				35280BEB216207CA00E793BD /* EMDictionary.db in Resources */,
 				35E195E220F47CDB008CE1B7 /* Assets.xcassets in Resources */,
 				35E195E520F47CDB008CE1B7 /* Main.storyboard in Resources */,
+				351002902165F9600027AE7D /* pics.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +300,7 @@
 				35E0A5882164D00100BD0AAE /* ManageBookmarksWindowController.swift in Sources */,
 				35E195FE20F49FDE008CE1B7 /* DetailViewController.swift in Sources */,
 				359B1E4E21636B50001DB70B /* ListViewController.swift in Sources */,
+				3506F60321660786003D24F1 /* BindingExtension.swift in Sources */,
 				35E195E020F47CDA008CE1B7 /* MainViewController.swift in Sources */,
 				35E0A5902164D22B00BD0AAE /* RecentsWindowController.swift in Sources */,
 				35BBA3BB2161E15C0026EFDE /* DictionaryItem.swift in Sources */,
@@ -451,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = engmyan/engmyan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -460,7 +475,8 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.s16.engmyan;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Eng-Myan Dictionary";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -469,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = engmyan/engmyan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -478,7 +495,7 @@
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.s16.engmyan;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Eng-Myan Dictionary";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
