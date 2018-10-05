@@ -99,7 +99,7 @@ class DBManager: NSObject {
         }
         
         if openDatabase() {
-            let query = "SELECT `_id`, `word`, `stripword`, `title`, `definition`, `keywords`, `synonym`, `filename`, `picture`, `sound` " +
+            let query = "SELECT `_id`, `word`, `stripword`, `title`, `definition`, `keywords`, `synonym`, `picture` " +
             "FROM `dictionary` WHERE `_id` IS '\(id)';"
             
             do {

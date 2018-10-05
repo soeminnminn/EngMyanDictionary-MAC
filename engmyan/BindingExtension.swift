@@ -16,7 +16,7 @@ extension Binding {
     }
     
     public var boolValue: Bool? {
-        return Int("\(self)") == 1
+        return Int("\(self)") == 1 || "\(self)".lowercased() == "true"
     }
     
     public var intValue: Int? {

@@ -10,11 +10,10 @@
 		3506F5FF21660097003D24F1 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352330A821634AF10084DABE /* SQLite.framework */; };
 		3506F60021660097003D24F1 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 352330A821634AF10084DABE /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3506F60321660786003D24F1 /* BindingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506F60221660786003D24F1 /* BindingExtension.swift */; };
-		3506F61521660F4F003D24F1 /* ZipZap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3506F61321660F47003D24F1 /* ZipZap.framework */; };
-		3506F61621660F4F003D24F1 /* ZipZap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3506F61321660F47003D24F1 /* ZipZap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		351002902165F9600027AE7D /* pics.zip in Resources */ = {isa = PBXBuildFile; fileRef = 3510028F2165F95F0027AE7D /* pics.zip */; };
 		352330AB216356460084DABE /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352330AA216356460084DABE /* DBManager.swift */; };
 		35280BEB216207CA00E793BD /* EMDictionary.db in Resources */ = {isa = PBXBuildFile; fileRef = 35280BE9216207CA00E793BD /* EMDictionary.db */; };
+		3536736721671F8A001FC102 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3536736621671F8A001FC102 /* ColorExtensions.swift */; };
 		359B1E4E21636B50001DB70B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B1E4D21636B50001DB70B /* ListViewController.swift */; };
 		359B1E5021636D1A001DB70B /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B1E4F21636D1A001DB70B /* MainWindowController.swift */; };
 		35BBA3BB2161E15C0026EFDE /* DictionaryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BBA3BA2161E15C0026EFDE /* DictionaryItem.swift */; };
@@ -49,7 +48,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3506F61621660F4F003D24F1 /* ZipZap.framework in Embed Frameworks */,
 				3506F60021660097003D24F1 /* SQLite.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -65,6 +63,7 @@
 		352330AA216356460084DABE /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		35280BE9216207CA00E793BD /* EMDictionary.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = EMDictionary.db; sourceTree = "<group>"; };
 		35280BEE21620EC000E793BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Base; path = Base.lproj/engmyan.entitlements; sourceTree = "<group>"; };
+		3536736621671F8A001FC102 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		359B1E4D21636B50001DB70B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		359B1E4F21636D1A001DB70B /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		35BBA3BA2161E15C0026EFDE /* DictionaryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryItem.swift; sourceTree = "<group>"; };
@@ -92,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3506F61521660F4F003D24F1 /* ZipZap.framework in Frameworks */,
 				3506F5FF21660097003D24F1 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,6 +164,7 @@
 				35E195DD20F47CDA008CE1B7 /* AppDelegate.swift */,
 				35E195E120F47CDB008CE1B7 /* Assets.xcassets */,
 				3506F60221660786003D24F1 /* BindingExtension.swift */,
+				3536736621671F8A001FC102 /* ColorExtensions.swift */,
 				352330AD216361EA0084DABE /* controllers */,
 				352330AC216361DE0084DABE /* data */,
 				35280BE9216207CA00E793BD /* EMDictionary.db */,
@@ -306,6 +305,7 @@
 				35BBA3BB2161E15C0026EFDE /* DictionaryItem.swift in Sources */,
 				35E195DE20F47CDA008CE1B7 /* AppDelegate.swift in Sources */,
 				35E0A58B2164D01700BD0AAE /* ManageBookmarksViewController.swift in Sources */,
+				3536736721671F8A001FC102 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
