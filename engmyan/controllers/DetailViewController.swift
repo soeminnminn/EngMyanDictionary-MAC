@@ -2,7 +2,7 @@
 //  DetailViewController.swift
 //  engmyan
 //
-//  Created by New Wave Technology on 7/10/18.
+//  Created by Soe Minn Minn on 7/10/18.
 //  Copyright © 2018 S16. All rights reserved.
 //
 

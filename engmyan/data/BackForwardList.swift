@@ -2,7 +2,7 @@
 //  BackForwardList.swift
 //  engmyan
 //
-//  Created by New Wave Technology on 10/3/18.
+//  Created by Soe Minn Minn on 10/3/18.
 //  Copyright © 2018 S16. All rights reserved.
 //
 

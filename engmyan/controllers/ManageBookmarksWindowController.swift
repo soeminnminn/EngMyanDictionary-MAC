@@ -2,7 +2,7 @@
 //  ManageBookmarksWindowController.swift
 //  engmyan
 //
-//  Created by New Wave Technology on 10/3/18.
+//  Created by Soe Minn Minn on 10/3/18.
 //  Copyright © 2018 S16. All rights reserved.
 //
 
@@ -16,4 +16,10 @@ class ManageBookmarksWindowController: NSWindowController {
         // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     }
 
+    @IBAction func selectAllItems(_ sender: Any) {
+    }
+    
+    @IBAction func deleteSelected(_ sender: Any) {
+        
+    }
 }
